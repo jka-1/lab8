@@ -31,8 +31,8 @@ void merge(int pData[], int l, int m, int r)
 	int i,j,k;
 	int nL = m - l + 1;
 	int nR = r - m;
-	*tmpL = Alloc(nL);
-	*tmpR = Alloc(nR);
+	int *tmpL = Alloc(nL);
+	int *tmpR = Alloc(nR);
 	// int tmpL[nL], tmpR[nR];
 	for(i = 0; i < nL; i++)
 	{
