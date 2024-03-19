@@ -40,7 +40,7 @@ void merge(int pData[], int l, int m, int r)
 	}
 	for(j = 0; j < nR; j++)
 	{
-		tmpR[i] = pData[m + j +1];
+		tmpR[j] = pData[m + j +1];
 	}
 	i=0;
 	j=0;
